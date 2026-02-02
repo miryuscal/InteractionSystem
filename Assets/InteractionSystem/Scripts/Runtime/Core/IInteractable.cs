@@ -4,6 +4,6 @@ namespace InteractionSystem.Scripts.Runtime.Core
 {
     public interface IInteractable
     {
-        void Interact();
+        void Interact(GameObject interactor);
     }
 }

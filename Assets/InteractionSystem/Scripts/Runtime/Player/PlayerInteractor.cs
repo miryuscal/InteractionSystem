@@ -48,7 +48,7 @@ namespace InteractionSystem.Scripts.Runtime.Player
             if (target == null)
                 return;
 
-            target.Interact();
+            target.Interact(gameObject);
         }
     }
 }
